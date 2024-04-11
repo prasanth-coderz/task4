@@ -1,0 +1,38 @@
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #1289a7;
+  padding: 8px;
+  text-align: left;
+}
+
+.custom-table th {
+  background-color: #5f27cd;
+}
+
+.custom-table tbody tr:nth-child(even) {
+  background-color: #ffcccc;
+}
+
+.custom-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.table-controls {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#searchLabel {
+  margin-right: 10px;
+}
+
+body {
+  background: rgb(138, 158, 222);
+  background: linear-gradient(90deg, rgba(138, 158, 222, 1) 25%, rgba(25, 149, 98, 1) 78%);
+}
